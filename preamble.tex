@@ -42,7 +42,8 @@
 
 \usepackage{caption}
 % -- configure captions for figures
-\DeclareCaptionFormat{listing}{\par\hrule #1#2#3}
+%\DeclareCaptionFormat{listing}{\parbox{\textwidth}{#1#2#3}}
+%\captionsetup[lstlisting]{format=listing,margin=0pt,font={footnotesize,centering}}
 \captionsetup[figure]{%
   format=listing, 
   singlelinecheck=false, 

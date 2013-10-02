@@ -2,15 +2,12 @@
 Question 1
 ===========
 
-Hello World!
+Hello World! \ref{lst:helloworld}
 
-\begin{program}
-\begin{lstlisting}
+\begin{lstlisting}[caption=Hello World,label=lst:helloworld]
   int main() {
     printf("Hello World!\n");
     return EXIT_SUCCESS;
   }
 \end{lstlisting}
-  \caption{Hello World!}
-\end{program}
 
